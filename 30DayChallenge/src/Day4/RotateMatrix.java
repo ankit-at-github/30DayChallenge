@@ -18,7 +18,7 @@ public class RotateMatrix {
 			System.out.println();
 		}
 		
-		//Step 1 : Transpose the matrix (In-Place)
+		//Step 1 : Transpose the matrix (In-Place - only possible when matrix size is n*n as size will differ)
 		for(int i=0; i<n; i++)
 		{
 			for(int j=i+1; j<n; j++)
