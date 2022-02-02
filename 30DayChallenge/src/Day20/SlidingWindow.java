@@ -3,8 +3,8 @@ package Day20;
 public class SlidingWindow {
 
 	public static void main(String args[]) {
-	      int[] arr = {1,2,7,7,4,3,6};
-	      int k = 3;
+	      int[] arr = {1,2,7,5,7,4,3,0};
+	      int k = 4;
 	      
 	      System.out.print("Given Array: ");
 	      for(int x : arr) System.out.print(x+" ");
@@ -29,14 +29,13 @@ public class SlidingWindow {
 	          }
 	          else
 	          {
-	              while(j<i)
+	              while(arr[j]!=arr[i])
 	              {
 	                  hash[arr[j]] = false;
-	                  j++;
 	                  sum-=arr[j];
+	                  j++;
 	              }
-	              hash[arr[j]] = true;
-	              sum = arr[j];
+	              j++;
 	          }
 	          //if difference is equal to window size,now window size will remain constant
 	          if(i-j+1==k)
