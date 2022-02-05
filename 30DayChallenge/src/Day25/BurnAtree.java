@@ -107,7 +107,7 @@ public class BurnAtree {
 
         int time = findTime(parentTracker, leaf);
 
-        System.out.println("Time take to burn the tree: "+time);
+        System.out.println("Time take to burn the tree from given node: "+time);
 
 	}
 
