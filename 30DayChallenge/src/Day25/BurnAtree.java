@@ -13,7 +13,7 @@ class TreeNode {
 	       left=null;
 	       right=null;
 	      }
-	  }
+}
 
 public class BurnAtree {
 	public static TreeNode markParents(TreeNode root, Map<TreeNode, TreeNode> parentTracker, int B)
