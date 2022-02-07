@@ -44,7 +44,7 @@ public class FlattenABinaryTree {
 			root = root.right;
 		}
 		
-		//This question can also be solved using Iterative Approach - Stack and Morris Traversal Approach
+		//This question can also be solved using Iterative Approach - Stack and Morris Traversal approach
 
 	}
 
